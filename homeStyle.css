@@ -45,6 +45,10 @@ body {
    
 }
 
+#carnitas:hover, #friedFish:hover{
+    cursor: pointer;
+}
+
 #carnitas {
     transform: translate(-9em);
 }
@@ -74,6 +78,10 @@ body {
 
 #groundBeef {
     transform: translate(9em);
+}
+
+#carneAsada:hover, #groundBeef:hover {
+    cursor: pointer;
 }
 
 #secondRow {
