@@ -29,15 +29,18 @@ body {
 
 
 #carnitas, #friedFish{
+    box-sizing: content-box;
+    border: solid black 1px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    border-top: 1rem;
+    border-left: 2rem;
+    border-right: 2rem;
     width: 20rem;
     height: 15rem;
     object-fit: cover;  
+    border: 2px solid black;
    
 }
 
@@ -53,11 +56,13 @@ body {
     width: 50%;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
+    border-top: 6em;
+    border-left: 2rem;
+    border-right: 2rem;
     width: 20rem;
     height: 15rem;
     object-fit: cover;
-    
+    border: 2px solid black;
 }
 
 #carneAsada {
