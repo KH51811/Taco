@@ -25,30 +25,42 @@ body {
 
 }
 
-#firstRow {
-    padding: 50px;  
-}
 
 #carnitas, #friedFish{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2px;
-    width: 210px;
-    height: 210px;
-    object-fit: cover;
-    border: 2px solid black;
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;  
+   
+}
+
+#carnitas {
+    transform: translate(-9em);
+}
+
+#friedFish {
+    transform: translate(9em);
 }
 
 #carneAsada, #groundBeef {
     width: 50%;
     justify-content: center;
     text-align: center;
-    padding: 2px;
-    width: 210px;
-    height: 210px;
+    padding: 4rem;
+    width: 20rem;
+    height: 15rem;
     object-fit: cover;
-    border: 2px solid black;
+    
+}
+
+#carneAsada {
+    transform: translate(-9em);
+}
+
+#groundBeef {
+    transform: translate(9em);
 }
 
 #secondRow {
