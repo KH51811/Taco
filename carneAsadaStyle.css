@@ -60,14 +60,22 @@ h1 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
+    padding-bottom: 2rem;
 
 }
 
 #homeButton {
-    padding: .25rem;
-    width: 3rem;
+    padding: .4rem;
+    width: 4rem;
     border-radius: .2rem;
     float: left;
-    
+    margin-left: .8rem;
+    margin-bottom: .4rem;
+    cursor: pointer;
+    transition: .75s;
+}
+
+#homeButton:hover {
+    background-color: rgb(180, 55, 55);
+    color: white;
 }
