@@ -58,7 +58,7 @@ body {
     transform: translate(4em);
 }
 
-#carneAsada, #groundBeef {
+#carneAsada, #groundBeef, #shrimp, #blackjack {
     width: 50%;
     justify-content: center;
     text-align: center;
@@ -74,11 +74,11 @@ body {
 }
 
 #carneAsada {
-    transform: translate(-9em);
+    transform: translate(-4em);
 }
 
 #groundBeef {
-    transform: translate(9em);
+    transform: translate(4em);
 }
 
 #carneAsada:hover, #groundBeef:hover {
