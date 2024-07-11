@@ -79,12 +79,12 @@ h1 {
     padding: .4rem;
     width: 4.5rem;
     border-radius: .2rem;
-    float: left;
     margin-left: 1.2rem;
     margin-bottom: .6rem;
     cursor: pointer;
     transition: .5s;
     margin-top: 2rem;
+
 }
 
 #homeButton:hover {
@@ -102,4 +102,9 @@ li {
 
 #ingredientsHeader {
     display: flex;
+}
+
+a{
+    justify-content: center;
+    text-align: center;
 }
