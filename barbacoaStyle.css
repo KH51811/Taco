@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    border: 2px solid black;
+    
     width: 60rem;
     border-radius: 1.2rem;
     font-family:'Times New Roman', Times, serif;
@@ -50,7 +50,7 @@ h1 {
     padding-bottom: 2rem;
     float: left;
     text-align: left;
-   
+   border-bottom: 1px solid black;
 
     
 }
@@ -58,7 +58,8 @@ h1 {
 #instructionsList {
     padding-left: 5rem;
     font-size: 1.7rem;
-    padding-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
 }
 
 #tacoPicTwo {
@@ -70,6 +71,7 @@ h1 {
     margin-right: auto;
     border: 2px solid black;
     border-radius: 1.2rem;
+    margin-top: 2rem;
 
 }
 
@@ -77,12 +79,12 @@ h1 {
     padding: .4rem;
     width: 4.5rem;
     border-radius: .2rem;
-    float: left;
     margin-left: 1.2rem;
     margin-bottom: .6rem;
     cursor: pointer;
     transition: .5s;
     margin-top: 2rem;
+
 }
 
 #homeButton:hover {
@@ -95,9 +97,14 @@ li {
 }
 
 #headerAndList1 {
-   
+   border-bottom: 1px solid black;
 }
 
 #ingredientsHeader {
     display: flex;
+}
+
+a{
+    justify-content: center;
+    text-align: center;
 }
