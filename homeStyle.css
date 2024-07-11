@@ -1,3 +1,4 @@
+
 body {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg');
     width: 100%;
@@ -28,7 +29,7 @@ body {
 }
 
 
-#carnitas, #friedFish{
+#carnitas, #friedFish, #barbacoa, #waffletaco{
     box-sizing: content-box;
     border: solid black 1px;
     justify-content: center;
@@ -45,16 +46,16 @@ body {
    
 }
 
-#carnitas:hover, #friedFish:hover{
+#carnitas:hover, #friedFish:hover, #barbacoa:hover, #waffletaco:hover{
     cursor: pointer;
 }
 
 #carnitas {
-    transform: translate(-9em);
+    transform: translate(-4em);
 }
 
 #friedFish {
-    transform: translate(9em);
+    transform: translate(4em);
 }
 
 #carneAsada, #groundBeef {
