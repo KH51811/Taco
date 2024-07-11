@@ -1,0 +1,45 @@
+h1 {
+text-align: center;
+justify-content: center;
+  font-size: 100px;
+}
+h2 {
+text-align: left;
+font-size: 50px;
+}
+li{
+font-size: 29px;
+}
+h3 {
+font-size: 35px;
+}
+h4 {
+font-size: 35px;
+}
+h5 {
+  font-size: 25px;
+}
+div {
+border-style: solid;
+}
+ol {
+padding-left:50px;
+}
+#homeButton {
+  padding: .4rem;
+  width: 4.5rem;
+  border-radius: .2rem;
+  Margin-left: 40rem;
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+}
+.center {
+  margin-left:auto;
+  margin-right:auto;
+  display: Block
+}
