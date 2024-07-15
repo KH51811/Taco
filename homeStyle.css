@@ -8,6 +8,11 @@ body {
     top: 0px;
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -17,15 +22,6 @@ h1 {
     align-items: center;
     display: flex;
     font-size: 3rem;
-}
-
-body {
-    justify-content: center;
-    align-items: center ;
-    align-content: center;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 
@@ -50,14 +46,6 @@ body {
     cursor: pointer;
 }
 
-#carnitas {
-    transform: translate(-4em);
-}
-
-#friedFish {
-    transform: translate(4em);
-}
-
 #carneAsada, #groundBeef, #shrimp, #blackjack {
     width: 50%;
     justify-content: center;
@@ -73,18 +61,17 @@ body {
     border-radius: 1rem;
 }
 
-#carneAsada {
-    transform: translate(-4em);
-}
-
-#groundBeef {
-    transform: translate(4em);
-}
-
 #carneAsada:hover, #groundBeef:hover {
     cursor: pointer;
 }
 
 #secondRow {
     padding: 50px;
+}
+
+/* Hover effect */
+#carnitas:hover, #friedFish:hover, #barbacoa:hover, #waffletaco:hover, 
+#carneAsada:hover, #groundBeef:hover, #shrimp:hover, #blackjack:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Scale up by 10% on hover */
 }
