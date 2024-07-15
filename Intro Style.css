@@ -1,34 +1,49 @@
 
 .container {
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 60rem;
+    display: grid;
 }
 
 #titleHeader {
     border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
+
+h1 {
+    margin-bottom: .5rem;
+}
+
 
 .introduction {
     border-bottom: 1px solid black;
     border-bottom: 2rem;
-    text-align: center;
     border-bottom: 1px solid black;
     margin-bottom: 2rem;
+    padding-left: 2rem;
 }
 
 img {
     object-fit: cover;
-    width: 50%;
+    width: 20em;
+    border-radius: 1em;
+    height: 12em;
     
 }
 
 #imageRow1 {
     display: flex;
     justify-content: center;
-
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     
 }
 
 #tacoHome, #carnitasTaco {
+    border: 1px solid black;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 h3 {
