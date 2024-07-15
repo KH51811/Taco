@@ -1,12 +1,11 @@
 body {
-    background-color: rgba(211, 145, 22, 0.041);
+    background-color: rgba(220, 211, 76, 0.041);
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
 .container {
-    
     width: 60rem;
     border-radius: 1.2rem;
     font-family:'Times New Roman', Times, serif;
