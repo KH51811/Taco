@@ -1,1 +1,36 @@
 
+.container {
+    font-size: 2em;
+}
+
+#titleHeader {
+    border-bottom: 1px solid black;
+}
+
+.introduction {
+    border-bottom: 1px solid black;
+    border-bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+img {
+    object-fit: cover;
+    width: 50%;
+    
+}
+
+#imageRow1 {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#tacoHome, #carnitasTaco {
+}
+
+h3 {
+    text-decoration: underline;
+}
