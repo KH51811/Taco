@@ -1,39 +1,72 @@
+
 body {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg');
+    width: 99%;
+    height: auto;
+    position: absolute; 
+    left: 0px; 
+    top: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    display: flex;
+    justify-content: center;
+    align-items: center ;
+    align-content: center;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
 
 h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     font-size: 3rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem; /* Added margin bottom for spacing */
 }
 
-#carnitas, #friedFish, #barbacoa, #waffletaco, #carneAsada, #groundBeef, #shrimp, #blackjack {
+
+#carnitas, #friedFish, #barbacoa, #waffletaco{
+    box-sizing: content-box;
+    border: solid black 1px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1rem;
+    border-left: 2rem;
+    border-right: 2rem;
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;  
+    border: 2px solid black;
+    border-radius: 1rem;
+   
+}
+
+#carnitas:hover, #friedFish:hover, #barbacoa:hover, #waffletaco:hover{
+    cursor: pointer;
+}
+
+#carneAsada, #groundBeef, #shrimp, #blackjack {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    border-top: 6em;
+    border-left: 2rem;
+    border-right: 2rem;
     width: 20rem;
     height: 15rem;
     object-fit: cover;
     border: 2px solid black;
+    margin-top: 2rem;
     border-radius: 1rem;
-    margin: 1rem; /* Added margin for spacing */
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#carneAsada:hover, #groundBeef:hover {
+    cursor: pointer;
 }
 
 #secondRow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem; /* Added margin top for spacing */
-}
-
-#firstRow {
-    display: flex;
-    
+    padding: 50px;
 }
 
 /* Hover effect */
