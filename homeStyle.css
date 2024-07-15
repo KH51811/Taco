@@ -75,3 +75,10 @@ h1 {
     cursor: pointer;
     transform: scale(1.1); /* Scale up by 10% on hover */
 }
+
+#introduciton {
+    text-align: right;
+    float: right;
+    margin-right: 2rem;
+
+}
